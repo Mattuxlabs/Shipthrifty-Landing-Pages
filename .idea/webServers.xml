@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f99ba5e9-816b-46dc-806f-d78653837e87" name="dcdemosite: Shipthrifty" url="http://dcdemosite.com/shipthrifty/">
+        <fileTransfer host="160.153.34.129" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
