@@ -76,19 +76,19 @@
 	.sm-tb-padding{padding:12px 0px}
 	.md-tb-padding{padding:18px 0px}
 	.lg-tb-padding{padding:24px 0px}
-	.xl-tb-padding{padding:36px 0px}
+	.xl-tb-padding{padding:40px 0px}
 	/* left right padding rule of 6*/
 	.std-lr-padding{padding 0px 6px}
 	.sm-lr-padding{padding: 0px 12px}
 	.md-lr-padding{padding: 0px 18px}
 	.lg-lr-padding{padding: 0px 26px}
-	.xl-lr-padding{padding: 0px 36px}
+	.xl-lr-padding{padding: 0px 40px}
 	/* Overall Square Padding Rule of 6 */
 	.std-overall-padding{padding:6px}
 	.sm-overall-padding{padding:12px}
 	.md-overall-padding{padding:18px}
 	.lg-overall-padding{padding:24px}
-	.xl-overall-padding{padding:36px}
+	.xl-overall-padding{padding:40px}
 	
 /* Content-sections */
 	/* square content containers note no width is greater then 450 px to accomidate mobile */

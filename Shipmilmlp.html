@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="shipthrifty-landing.css"/>
+    <link rel="stylesheet" type="text/css" href="css/shipthrifty-landing.css"/>
     <meta charset="UTF-8">
     <title>Untitled Document</title>
     <!-- CSS only -->
 
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link href="dc-custom.css" rel="stylesheet" type="text/css">
+<link href="css/dc-custom.css" rel="stylesheet" type="text/css">
 <style>
 
     .nav-link{color:#000;font-weight:200;margin-bottom:5px;font-size:14px}
@@ -28,19 +28,49 @@
     .inner-item-content-container{margin-top:15px}
     .circle{background-color:darkred;border:2px solid darkred;border-radius:45px;width:10px;height:10px;margin-top:5px;display:none}
     .blk-hero-bkgd{height:500px;width:100%;background-color:#000000}
-    .hero-bkgd{background-image:url(shipmilhead.png);background-repeat: no-repeat;height:500px}
+    .hero-bkgd{background-image:url(images/shipmilhead.png);background-repeat: no-repeat;height:500px;width:100%}
     .list-group-item{background-color:transparent}
-    .overlay-white{background-color:rgba(255,255,255,.6)}
+    .item-box-container{height:350px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999}
+    .address-item-container{height:150px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999;margin:10px}
+    .nav-component{height:100px;background-color:#FFFFFF}
+    .logo-container{margin:10px}
+    .nav-component a{color:#000000}
+    .half-container{height:220px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
+    .full-container{height:445px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
 </style>
 
 <body>
+<nav>
+<div class="nav-component">
+   <div class ="row">
+    <div class ="col-md-3">
+<div class ="logo-container">
+ <img src="images/logo-nav%20(1).png" height="65px">
+
+</div></div>
+  <div class ="col-md-9">
+      <div class="xl-tb-padding">
+      <div class ="d-flex d-flex-rows justify-content-end">
+
+          <a href="#">HOME</a>
+          <div class="col-1 "></div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+</div>
+
+</nav>
+<!-- Header -->
 <section>
  <div class="container-fluid">
-     <div class ="row">
+     <div class ="row" style="background-color:#000000">
   <div class="col-md-4 col-sm-12 blk-hero-bkgd">
       <div class="stm-hero-content-container" style="margin:50px;color:#FFFFFF">
         <div class="special uppercase"> We Simplify Shipping...</div>
-        <div class="headline">So the can amazing...</div>
+        <div class="headline">So they can amazing...</div>
          <div class ="xxl-spacer"></div>
           <div class="stm-button">How can we make you amazing</div>
       </div>
@@ -51,17 +81,16 @@
  </div>
      </div>
 </section>
-
+<!--Offering Module -->
 <section>
-<div class ="container-fluid lg-overall-padding " style="background-image: url(camobkg.png);width:100%;background-color:rgba(255,255,255,.6)">
-<div class ="row" >
+<div class ="container-fluid">
+<div class ="row">
        <div class="col-md-1"></div>
     <div class ="col-md-7">
     <div class ="intro-content-container">
         <div class="subheadline bold capitalize"> What We Offer You...</div>
         <div class ="copy">This is about YOU and what YOU do and how WE work together to help YOU…</div>
     </div>
-
     <nav>
         <div class="nav" id="nav-tab" role="tablist">
             <a class="nav-link active" id="nav-ces-tab" data-toggle="tab" href="#nav-ces" role="tab" aria-controls="nav-ces" aria-selected="true">Cutting Edge Software</a>
@@ -69,8 +98,11 @@
             <a class="nav-link" id="nav-ps-tab" data-toggle="tab" href="#nav-ps" role="tab" aria-controls="nav-ps" aria-selected="false">Personal Support</a>
         </div>
     </nav>
-</div></div>
-    <div class="xl-spacer"></div>
+</div>
+</div>
+
+
+<div class="xl-spacer"></div>
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-ces" role="tabpanel" aria-labelledby="nav-ces-tab">
 
@@ -288,8 +320,8 @@ packages by name and number of packages for each person.</div>
                     <div class ="headline">Areas of Focus:</div>
                     <div id="list-example" class="list-group">
                         <a class="list-group-item list-group-item-action" href="#list-item-6">Addressing Mail</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-7">Delivery Timelines</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-8">What Can Be Shipped</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-7">Address Details And Guidelines</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-8">How Long Will It Take</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-9">Customs Information</a>
 
                     </div>
@@ -299,18 +331,332 @@ packages by name and number of packages for each person.</div>
             <div class ="col-md-7 col-sm-12" Style="height:450px;overflow-y:Scroll">
                 <div class ="lg-spacer"></div>
                 <div class ="item-section-headline active" id="list-item-6" >Addressing Mail</div>
+                <div class ="xl-spacer"></div>
+<div class ="item-headline">Address Basics For Military Mail</div>
+ <div class ="item-copy">Military mail is considered domestic mail and gets assigned special City, State, and Zip codes to identify troops
+ without disclosing their location. <u>Avoid using city or country names in APO/FPO/DPO </u>addresses to prevent mail
+ from entering foreign networks.</div>
+                <div class ="xl-spacer"></div>
+                <div class="d-flex d-flex-rows justify-content-around">
+                 <div class ="item-box-container md-overall-padding">
+<div class ="item-headline uppercase" style="text-align:center"> City</div>
+                     <div class ="xl-spacer"></div>
+                     <div class ="item-copy"><b>APO:</b> Army Post Office<br>
+Associated with Army or Air Force installations</div>
+<br>
+                     <div class ="item-copy"><b>FPO:</b> Fleet Post Office<br>
+                     Associated with Navy installations and ships</div>
+                     <br>
+                     <div class ="item-copy"><b>DPO:</b> Diplomatic Post Office<br>
+                     Associated with U.S. diplomatic locations / overseas
+                     embassies</div>
+                     <br>
+                     <div class ="item-copy"><b>MPO:</b> Military Post Office</div>
+                 </div>
+                    <div class ="item-box-container md-overall-padding">
+                        <div class ="item-headline uppercase" style="text-align:center"> State</div>
+                        <div class="xl-spacer"></div>
+                        <div class ="item-copy">
+
+                            <b>AA:</b> America – Excludes Canada
+<br>
+                            <b> AP: </b> Pacific – Japan, Korea, Pacific Islands, and Far East
+<br>
+                            <b>AE:</b> Europe – The Middle East, Africa, and Canada
+
+
+                        </div>
+                    </div>
+                    <div class ="item-box-container md-overall-padding">
+                        <div class ="item-headline uppercase" style="text-align:center"> Zip Code</div>
+                        <div class ="item-copy">
+                            <div class ="md-spacer"></div>
+                            <b>Europe / Atlantic: </b><br>
+                            APO / FPO, AE -
+
+                            Zip codes beginning with 090-092 and 094-099
+<div class ="md-spacer"></div>
+                            <b>Iraq / Afghanistan / Middle East:</b> <br>APO / FPO, AE -
+
+                            Zip codes start with 093
+                            <div class ="md-spacer"></div>
+                           <b> Central America / South America/ Caribbean:</b>
+                           <br>
+                            APO /FPO, AA - Zip codes beginning with 340
+                            <div class ="md-spacer"></div>
+                            <b>Japan / Korea / Pacific Islands / Far East: </b><br>
+                            APO / FPO,AP -Zip codes beginning with 962-966
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class ="lg-spacer"></div>
+                <div class ="item-section-headline active" id="list-item-7" >Address Details and Guidelines</div>
+                <div class="md-spacer"></div>
+                <div class="item-copy">
+                Addresses are laid out differently depending on the service branch. The USPS says each shipment to an
+                APO, FPO, or DPO should include the recipients name, rank, and, unit. Mail addressed to soldier or any
+                service member won’t be delivered for security reasons.</div>
+    <div class ="md-spacer"></div>
+    <div class ="subheadline uppercase bold" style="text-align: center">TYPICAL MILITARY ADDRESS FORMATS BY BRANCH </div>
+                <div class ="xl-spacer"></div>
+                <div class ="d-flex d-flex-rows justify-content-around">
+               <div class="item-copy" style="text-align: center"> Army<br>
+                Unit [Number] Box [Number]
+                </div>
+<div class ="item-copy"style="text-align: center">
+                Air Force<br>
+                PSC [Number] Box [Number]
+                </div>
+ <div class="item-copy"style="text-align: center">
+                Navy<br>
+                Ship [Number] Hull [Number]
+                </div>
+
+<div class="item-copy"style="text-align: center">
+                Embassy<br>
+                Unit [Number] Box [Number]
+                </div>
 
             </div>
+<div class="xl-spacer"></div>
+                <div class="subheadline bold">Examples of proper addresses per USPS:</div>
+                <div class="md-spacer"></div>
+                <div class ="d-flex d-flex-rows justify-content-around">
+                   <div class ="address-item-container md-overall-padding">
+                      <b> Army / Air Post Office (APO)</b>
+<br>
+                       PFC WILLIAM MAVERICK<br>
+                       PSC 3 BOX 4120<br>
+                       APO AE 09021
+
+
+
+                   </div>
+                    <div class ="address-item-container md-overall-padding">
+                       <b> Navy</b>
+<br>
+                        SEAMAN JOSEPH SMITH<br>
+                        UNIT 1001 BOX 4120<br>
+                        FPO AP 96691
+
+
+
+                    </div>
+<div class="address-item-container md-overall-padding">
+    <b>DIPLOMATIC POST OFFICE (DPO)</b>
+<br>
+    SUSAN SMITH<br>
+    UNIT 8400 BOX 122<br>
+    DPO AE 09498
+
+
+</div>
+                </div>
+
+
+
+
+
+
+
+            <div class ="lg-spacer"></div>
+            <div class ="item-section-headline active" id="list-item-8" >How Long Will It Take For Military Packages To Arrive</div>
+            <div class="md-spacer"></div>
+<div class ="d-flex d-flex-rows flex-wrap">
+   <div class ="left-section-pack ">
+    <div class ="half-container lg-overall-padding">
+        <div class ="item-headline">Iraq / Afghanistan / Middle East</div>
+        <div class="item-copy">
+   <br>
+            Express Mail Military Service Not Available
+<br><br>
+        First-Class Mail / Priority Mail Service 11-13 Days
+<br><br>
+        Package Services* 11-15 Days
+
+</div>
+    </div>
+     <div class ="half-container lg-overall-padding">
+<div class ="item-headline">Japan / Korea / Pacific Islands / Far East</div>
+       <div class ="item-copy"><br>
+           Express Mail Military Service 3 Days
+<br><br>
+           First-Class Mail / Priority Mail Service 9-12 Days
+<br><br>
+           Package Services* 30-45 Days
+
+   </div>
+
+</div></div>
+<div class ="center-section-pack">
+ <div class ="full-container lg-overall-padding">
+    <div class ="item-headline" style="text-align: center"> ZIP CODES FOR CORRELATING STATE FOR ARMED FORCES </div>
+<div class ="item-copy" style ="text-align:center">
+ <br>
+    <b>    Europe / Atlantic</b>
+<br>
+     APO / FPO, AE
+<br>
+     Zip codes beginning with 090-092 and 094-099
+<br>
+  <b> Iraq / Afghanistan / Middle East</b>
+    <br>
+     APO / FPO, AE
+<br>
+     Zip codes start with 093
+<br>
+  <b>Central America/ South America/ Caribbean</b>
+<br>
+     APO / FPO, AA
+<br>
+     Zip codes beginning with 340
+<br>
+    <b> Japan / Korea / Pacific Islands / Far East</b>
+<br>
+     APO / FPO, AP
+<br>
+     Zip codes beginning with 962-966
+   <br>
+   </div>
+
+
+ </div>
+
+</div>
+
+
+<div class ="right-section-pack">
+    <div class ="half-container lg-overall-padding">
+        <div class ="item-headline">Europe / Atlantic</div>
+<div class ="item-copy">
+    <br>
+        Express Mail Military Service 3 Days
+<br><br>
+        First-Class Mail / Priority Mail Service 9-18 Days
+<br><br>
+        Package Services* 30-60 Days
+
+
+
+   </div>
+    </div>
+    <div class ="half-container lg-overall-padding">
+<div class ="item-headline">
+        Central America/ South America/ Caribbean
+</div><br>
+        <div class ="item-copy">
+        Express Mail Military Service Not Available
+<br><br>
+        First-Class Mail / Priority Mail Service 7-9 Days
+            <br><br>
+        Package Services* 18-21 Days
+ </div>
+
+    </div>
+
+</div>
+</div>
+<div class ="fineprint">* Ground delivery service for U.S. addresses, including PO boxes and military addresses.</div>
 
         </div></div>
         <div class="tab-pane fade" id="nav-ps" role="tabpanel" aria-labelledby="nav-ps-tab">...</div>
     </div>
 
 
-</div>
-</div>
-</section>
 
+
+</section>
+<section>
+    <div class ="xl-spacer" style="height:70px"></div>
+<div class ="container-fluid">
+ <div class ="row">
+  <div class ="col-md-5" style="background-color:black ;height:300px">
+     <div class ="cig-body">
+         <div class ="xl-spacer"></div>
+<div class ="headline" style="color:#FFFFFF">Ship Thrifty Built a Platform Based on A Simple Purpose</div>
+         <div class ="copy" style="color:#FFFFFF ; ;">To make it easier for nonprofits, families, or friends of service members to deliver packages to our troops across the globe. Our cutting-edge software paired with our knowledge and carrier connections provide an inclusive product to meet the needs of large or small shippers nationwide.
+         </div>
+
+
+     </div>
+
+  </div>
+  <div class ="col-md-3" style="background-color:black;height:300px">
+     <div class ="cig-img">
+         <img src ="images/soldierbw.png" height="300">
+
+
+
+     </div>
+
+
+  </div>
+
+
+ </div>
+
+
+</div>
+    <div class ="xl-spacer" style="height:70px"></div>
+</section>
+<section>
+<div class ="container-fluid">
+ <div class ="d-flex d-flex-rows flex-wrap">
+ <div class ="xl-spacer"></div>
+   <div class ="std-content-container md-overall-padding">
+    <div class ="headline uppercase bold drkgreyfont">Know What You Can and Can't Ship</div>
+      <div class ="subheadline greyfont">Some items are prohibited by the post office and others restricted by the military.</div>
+
+
+
+   </div>
+
+
+ </div>
+
+
+
+</div>
+
+
+</section>
+<section>
+    <div class ="container-fluid" style="background-image:url(images/camobkg.png);height:500px; box-shadow: 2px 2px 3px #777777">
+<div class ="md-overall-padding">
+ <div class ="headline uppercase bold"> Quick tips and tricks from the experts at Ship Thrifty</div>
+  <div class="subheadline greyfont"> With over a 100,000 packages shipped to our soldiers we know a thing or two about military shipping...</div>
+<div class ="md-spacer"></div>
+<div class ="d-flex d-flex-rows flex-wrap justify-content-center">
+    <div class ="item-box-container">
+
+
+
+
+    </div>
+    <div class ="item-box-container"></div>
+    <div class ="item-box-container"></div>
+    <div class ="item-box-container"></div>
+    <div class ="item-box-container"></div>
+
+</div>
+
+
+</div>
+
+
+
+
+ </div>
+
+
+</section>
+<section>
+<div class ="xl-spacer"></div>
+
+</section>
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
