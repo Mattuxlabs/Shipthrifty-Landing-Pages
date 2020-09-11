@@ -47,13 +47,14 @@
 .border-box-product{border:1px solid #f5f5f5}
 .box-product-height{height:300px}
 .box-product-title{height:50px}
-.box-product-image {height:200}
+.box-product-image {height:200px}
 .box-product-cta {height:50px;width:100%;}
 
 /*Fonts */
-.roboto{font-family:'roboto'}
-	.serif{font-family:'PT Serif'}
-	.sans{font-family:'Open Sans'}
+.roboto{font-family:"roboto", serif}
+	.serif{font-family:"PT Serif", serif}
+
+	.sans{font-family:"Open Sans", sans-serif}
 	
 /* Font Sizes: Font size standard is 12px and goes up by the rule of 6 to superheadline*/
 	.superheadline{font-size:36px;font-weight:900}
@@ -78,7 +79,7 @@
 	.bluebkgd{background-color:#222C6A;color:#fff!important}
 	.whitebkgd{background-color:#ffffff}
 	.blkbkgd{background-color:#000;color:#fff!important}
-	..powderbluebkgd{background-color: #afd6f6}
+	.powderbluebkgd{background-color: #afd6f6}
 	.powdergreenbkgd{background-color:#83d891}
 
 /* Font Transform */    
@@ -97,17 +98,17 @@
 	.xl-spacer{height:36px}
 	.xxl-spacer{height:175px;}
 	/* Top Bottom Padding Rule of 6 */
-	.std-tb-padding{padding:6px 0px}
-	.sm-tb-padding{padding:12px 0px}
-	.md-tb-padding{padding:18px 0px}
-	.lg-tb-padding{padding:24px 0px}
-	.xl-tb-padding{padding:40px 0px}
+	.std-tb-padding{padding-top:6px; padding-bottom:6px}
+	.sm-tb-padding{padding-top:12px; padding-bottom:12px}
+	.md-tb-padding{padding-top:18px; padding-bottom:18px}
+	.lg-tb-padding{padding:24px 0}
+	.xl-tb-padding{padding:40px 0}
 	/* left right padding rule of 6*/
-	.std-lr-padding{padding 0px 6px}
-	.sm-lr-padding{padding: 0px 12px}
-	.md-lr-padding{padding: 0px 18px}
-	.lg-lr-padding{padding: 0px 26px}
-	.xl-lr-padding{padding: 0px 40px}
+	.std-lr-padding{padding-left:6px; padding-right:6px}
+	.sm-lr-padding{padding-left: 12px; padding-right: 12px}
+	.md-lr-padding{padding-left:18px; padding-right: 18px}
+	.lg-lr-padding{padding-left: 26px; padding-right: 26px}
+	.xl-lr-padding{padding-left: 40px; padding-right: 40px}
 	/* Overall Square Padding Rule of 6 */
 	.std-overall-padding{padding:6px}
 	.sm-overall-padding{padding:12px}
@@ -158,28 +159,28 @@
 
 .blk-boxshadow{box-shadow: 4px 2px 3px 1px}
 .gry-boxshadow{box-shadow: 4px 2px 3px 1px #393939}
-	.sticky{top:0px ;z-index:10}
+	.sticky{top:0 ;z-index:10}
 /* Button setup */
 	.sq-button-outline{border:1px solid #000;width:50%;padding:10px 80px;font-size:18px;font-weight:bolder;background-color:#222c6a;color:#fff}
 	.sq-button-outline:hover {width:50%;padding:10px 80px;font-size:18px;font-weight:bolder;background-color:#000 ;color:#fff ;box-shadow: 4px 2px 3px 1px}
 	.lg-sq-button-outline{border:1px solid #555;width:100%;padding:10px 100px;font-size:18px;font-weight:bolder;background-color:#222c6a;color:#fff}
 	.lg-sq-button-outline:hover {width:100%;padding:10px 100px;font-size:18px;font-weight:bolder;background-color:#777 ;color:#fff ;box-shadow: 4px 2px 3px 1px}
 	.wlg-sq-button-outline{border:1px solid #fff;width:40%;padding:18px 50px;font-size:18px;font-weight:bolder;color:#fff}
-	.on-sq-button-outline
+
 /* Body setup */
-	body{background-color:#fff;font-family:'Open Sans';color:#555}
+	body{background-color:#fff;font-family:"Open Sans", sans-serif;color:#555}
 /*header setup */
 	.header-container{width:100%;background-color:#fff;height:65px;}
 .logo-box{padding:15px 25px; Background-color:#fff}
-	.header-image{;background-repeat:no-repeat;background-position: cover;height:750px;}
+.header-image{background-repeat:no-repeat;height:750px;}
 /*navigation setup */
 	.nav-element{font-weight:bolder;color:#000;text-transform: uppercase}
-	.nav-active {color:#222c6a;text-decoration-col;list-style: none}
+	.nav-active {color:#222c6a;list-style: none}
 	.cd-primary-nav .cd-secondary-nav{background:#fff}
 	
 	/*hero setup **/
 	.overall-hero-container{height:400px}
-	.hero-content-wrapper{padding: 12% 0px}
+	.hero-content-wrapper{padding: 12% }
 	.hero-content-block{height:300px;width:400px;background-color:#fff;opacity:.7}
 	.carousel-item img{height:600px}
 	.hero-center-content{padding:80px}
@@ -188,18 +189,18 @@
 	.sm-container-two{height:210px;width:410px;padding:5px}
 	.md-container-two{height:410px;width:810px;padding:5px}
 	.lg-container-two{height:610px;width:100%;padding:5px}
-	.section-center-content{padding: 135px 0px}
+	.section-center-content{padding: 135px 1px}
 	/*decorations */
 	.sideborder{border-left:2px solid #f6f6f6}
 /*Bootstrap 4 overrides */
-	.card-header{text-align: center;padding:0px;border:0px ;border-radius:0px ;height:10px}
+	.card-header{text-align: center;padding:1px;border:1px ;border-radius:1px ;height:10px}
 	.card{border:none}
 	ul li {list-style: none}
-	hr{margin:0px;padding 0px 5px;color:#ffffff}
+	hr{margin:1px;padding: 1px 5px;color:#ffffff}
 	
 /*picture grid spacers */
 	.w-spacer{width:10px}
-	.nav-pills .nav-link.active, .nav-pills .show>.nav-link{;color: #222;background-color:#fff;border-radius:0px;font-weight:bold}
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link{;color: #222;background-color:#fff;border-radius:1px;font-weight:bold}
 	a {color:#999}
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {border:none}
 .nav-link.active{font-weight:bold;}

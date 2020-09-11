@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Core Files">
+      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shipmilmlp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dc-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dc-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shipthrifty-landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shipthrifty-landing.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="1fvCj5HMCPW4XG46RT6bM1yxlV9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Shipmilmlp.html">
+    <configuration name="Shipmilmlp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/Shipmilmlp.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="ship-business.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/ship-business.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Shipmilmlp.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Core Files" />
+      <created>1597089311781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597089311781</updated>
+      <workItem from="1597089313877" duration="11273000" />
+      <workItem from="1597165322638" duration="6243000" />
+      <workItem from="1597183568747" duration="17078000" />
+      <workItem from="1597281947140" duration="575000" />
+      <workItem from="1597326590455" duration="1216000" />
+      <workItem from="1597335442487" duration="115000" />
+      <workItem from="1597590777712" duration="5945000" />
+      <workItem from="1597673979871" duration="36024000" />
+      <workItem from="1598971722391" duration="1224000" />
+      <workItem from="1599244164523" duration="1554000" />
+      <workItem from="1599245750472" duration="15000" />
+      <workItem from="1599323850225" duration="346000" />
+      <workItem from="1599666523983" duration="4852000" />
+      <workItem from="1599833046537" duration="7725000" />
+    </task>
+    <task id="LOCAL-00001" summary="Core Files">
+      <created>1597091873735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597091873735</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Core Files">
+      <created>1597159989221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597159989221</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Design">
+      <created>1597165908632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597165908632</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Design">
+      <created>1597170419311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597170419311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Geo Location Design Spec">
+      <created>1597241619821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597241619821</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Design Completed PRE OWL RATE">
+      <created>1597254624135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597254624135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated rate section finalizing design... Needs Video and insurance section and rates API">
+      <created>1597335487883</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597335487883</updated>
+    </task>
+    <task id="LOCAL-00008" summary="With Geolocation URL string Config utilizing Owl Carousel">
+      <created>1597594064431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597594064431</updated>
+    </task>
+    <task id="LOCAL-00009" summary="With Geolocation URL string Config utilizing Owl Carousel">
+      <created>1597610831508</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597610831508</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ship mil page">
+      <created>1597711452853</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597711452853</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Final with Video">
+      <created>1599245640857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599245640857</updated>
+    </task>
+    <task id="LOCAL-00012" summary="With Video Section">
+      <created>1599835568075</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599835568075</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Core Files" />
+    <MESSAGE value="Updated Design" />
+    <MESSAGE value="Update Geo Location Design Spec" />
+    <MESSAGE value="Design Completed PRE OWL RATE" />
+    <MESSAGE value="updated rate section finalizing design... Needs Video and insurance section and rates API" />
+    <MESSAGE value="With Geolocation URL string Config utilizing Owl Carousel &amp; updates" />
+    <MESSAGE value="With Geolocation URL string Config utilizing Owl Carousel" />
+    <MESSAGE value="Ship mil page" />
+    <MESSAGE value="Final with Video" />
+    <MESSAGE value="With Video Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="With Video Section" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="205" width="800" height="660" key="#Deployment" timestamp="1597166143386">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="205" width="800" height="660" key="#Deployment/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1597166143386" />
+    <state x="4160" y="205" key="#Deployment/0.0.1920.1080/1920.0.1680.1050/3600.0.1920.1080@3600.0.1920.1080" timestamp="1597090560532" />
+    <state x="2480" y="205" key="#Deployment/0.23.1920.1057/-1680.23.1680.1027/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597159953016" />
+    <state x="2536" y="219" key="#Options" timestamp="1597160073466">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="219" key="#Options/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597160073466" />
+    <state x="2020" y="100" width="1720" height="880" key="DirDiffDialog" timestamp="1597164017286">
+      <screen x="1920" y="23" width="1860" height="1057" />
+    </state>
+    <state x="2020" y="100" width="1720" height="880" key="DirDiffDialog/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1597164017286" />
+    <state width="939" height="290" key="GridCell.Tab.0.bottom" timestamp="1599835249148">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249148" />
+    <state width="939" height="290" key="GridCell.Tab.0.center" timestamp="1599835249145">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249145" />
+    <state width="939" height="290" key="GridCell.Tab.0.left" timestamp="1599835249144">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249144" />
+    <state width="939" height="290" key="GridCell.Tab.0.right" timestamp="1599835249147">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249147" />
+    <state width="939" height="290" key="GridCell.Tab.1.bottom" timestamp="1599835249153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249153" />
+    <state width="939" height="290" key="GridCell.Tab.1.center" timestamp="1599835249151">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.1.center/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249151" />
+    <state width="939" height="290" key="GridCell.Tab.1.left" timestamp="1599835249150">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.1.left/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249150" />
+    <state width="939" height="290" key="GridCell.Tab.1.right" timestamp="1599835249152">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.1.right/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835249152" />
+    <state x="650" y="249" key="RollbackChangesDialog" timestamp="1599667305667">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="650" y="249" key="RollbackChangesDialog/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599667305666" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1599835570738">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835570738" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597160044131" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597159926287" />
+    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597165837992">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1597165837992" />
+    <state x="867" y="277" key="ftp.server.browser" timestamp="1597166141391">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="867" y="277" key="ftp.server.browser/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1597166141391" />
+    <state x="2787" y="277" key="ftp.server.browser/0.23.1920.1057/-1680.23.1680.1027/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597159944210" />
+    <state x="2755" y="438" key="publish.login" timestamp="1597159799015">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2755" y="438" key="publish.login/0.23.1920.1057/-1680.23.1680.1027/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597159799015" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1599667471855">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599667471855" />
+    <state x="4225" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1597092978842">
+      <screen x="3600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4225" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/1920.0.1680.1050/3600.0.1920.1080@3600.0.1920.1080" timestamp="1597092978842" />
+  </component>
+</project>

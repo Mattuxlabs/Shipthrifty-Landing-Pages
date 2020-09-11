@@ -18,3 +18,32 @@ body{font-family:Helvetica,"Helvetica Neue"}
     padding: 10px  ;
     text-align: center;
 }
+
+.nav-link{color:#000;font-weight:200;margin-bottom:5px;font-size:14px}
+.nav-link.active{color:#000;text-decoration:underline;text-decoration-color:red;font-size:14px}
+.intro-content-container{margin:7px}
+.std-content-container{margin:10px}
+.list-group-item{border:none;font-size:14px;font-weight:bold}
+.cat-content{color:#333;font-weight:200;font-size:12px;margin-left:20px}
+.line-sep{border-right:1px solid #777777}
+.item-content-container{width:250px;margin:10px}
+.fw-item-content-container{width:400px;margin:10px}
+.item-headline{font-weight:bold;font-size:12px;text-transform: uppercase}
+.item-copy{font-size:12px;}
+.item-section-headline{font-size:14px;font-weight:600;color:red;text-transform: uppercase}
+.inner-item-content-container{margin-top:15px}
+.circle{background-color:darkred;border:2px solid darkred;border-radius:45px;width:10px;height:10px;margin-top:5px;display:none}
+.blk-hero-bkgd{height:500px;width:100%;background-color:#000000}
+.hero-bkgd{background-image:url(images/shipmilhead.png);background-repeat: no-repeat;height:500px;width:100%}
+.list-group-item{background-color:transparent}
+.item-box-container{height:350px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999}
+.address-item-container{height:150px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999;margin:10px}
+.nav-component{height:100px;background-color:#FFFFFF}
+.logo-container{margin:10px}
+.nav-component a{color:#000000}
+.half-container{height:220px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
+.full-container{height:445px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
+.container-video{margin:10px}
+.special-subheadline{font-size:18px}
+.special-link{font-size:15px;margin-top:10px}
+.right-black-box{width:100%;Height:200px;background-color:#000000}
