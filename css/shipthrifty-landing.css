@@ -9,3 +9,12 @@ body{font-family:Helvetica,"Helvetica Neue"}
     width: 65%;
     padding: 20px;
 }
+.stm-button-blk {
+    background-color: #000000;
+    color:#FFFFFF;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+    width: 60%;
+    padding: 10px  ;
+    text-align: center;
+}
