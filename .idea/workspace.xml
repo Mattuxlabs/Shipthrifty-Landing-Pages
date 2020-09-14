@@ -17,9 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Core Files">
-      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shipmilmlp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dc-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dc-custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shipthrifty-landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shipthrifty-landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +65,34 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Shipmilmlp.html">
+  <component name="RunManager" selected="JavaScript Debug.talk-to-an-expert-military-shipper.html">
     <configuration name="Shipmilmlp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/Shipmilmlp.html">
       <method v="2" />
     </configuration>
     <configuration name="ship-business.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/ship-business.html">
       <method v="2" />
     </configuration>
+    <configuration name="talk-to-an-expert-military-shipper.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/talk-to-an-expert-military-shipper.html">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.talk-to-an-expert-military-shipper.html" />
         <item itemvalue="JavaScript Debug.Shipmilmlp.html" />
       </list>
     </recent_temporary>
@@ -107,7 +118,7 @@
       <workItem from="1599245750472" duration="15000" />
       <workItem from="1599323850225" duration="346000" />
       <workItem from="1599666523983" duration="4852000" />
-      <workItem from="1599833046537" duration="7725000" />
+      <workItem from="1599833046537" duration="23035000" />
     </task>
     <task id="LOCAL-00001" summary="Core Files">
       <created>1597091873735</created>
@@ -193,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599835568075</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support">
+      <created>1599850445897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599850445897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +253,8 @@
     <MESSAGE value="Ship mil page" />
     <MESSAGE value="Final with Video" />
     <MESSAGE value="With Video Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="With Video Section" />
+    <MESSAGE value="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="205" width="800" height="660" key="#Deployment" timestamp="1597166143386">
