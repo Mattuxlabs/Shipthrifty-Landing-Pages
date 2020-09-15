@@ -46,4 +46,14 @@ body{font-family:Helvetica,"Helvetica Neue"}
 .container-video{margin:10px}
 .special-subheadline{font-size:18px}
 .special-link{font-size:15px;margin-top:10px}
-.right-black-box{width:100%;Height:200px;background-color:#000000}
+
+input[type=submit]  {background-color: #000000;color:#FFFFFF;border: 1px solid #FFFFFF;font-size:20px;margin:15px;text-transform: uppercase}
+input[type=text] {border:none;border-bottom: 1px solid #ffffff;background-color:#000000;margin:3px;text-transform: uppercase}
+input[type=text]:focus{border:none;border-bottom: 1px solid #ffffff;background-color:#000000;text-transform: uppercase;color:#FFFFFF;font-size:24px;font-weight:300}
+textarea{background-color:#000000;color:#FFFFFF;font-size:20px;font-weight:200}
+label{text-transform: uppercase}
+.menu-space{width:15px}
+.underline{font-weight:900;color:darkred}
+.btn-acord{background:none;border:none;margin:0px;padding:0px}
+.btn-acord:focus{border:none;margin:0px;padding:0px;box-shadow: none;outline:none}
+.btn-acord:focus .subheadline{font-weight:600;text-transform: uppercase}

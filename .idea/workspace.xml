@@ -17,12 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Core Files">
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/boxes right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shipmilmlp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +72,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -118,7 +116,7 @@
       <workItem from="1599245750472" duration="15000" />
       <workItem from="1599323850225" duration="346000" />
       <workItem from="1599666523983" duration="4852000" />
-      <workItem from="1599833046537" duration="23035000" />
+      <workItem from="1599833046537" duration="27736000" />
     </task>
     <task id="LOCAL-00001" summary="Core Files">
       <created>1597091873735</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599850445897</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page">
+      <created>1600111589151</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600111589151</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +259,8 @@
     <MESSAGE value="Final with Video" />
     <MESSAGE value="With Video Section" />
     <MESSAGE value="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support" />
+    <MESSAGE value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="205" width="800" height="660" key="#Deployment" timestamp="1597166143386">
@@ -307,12 +313,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="650" y="249" key="RollbackChangesDialog/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599667305666" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1599835570738">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="560" y="297" key="Vcs.Push.Dialog.v2" timestamp="1600111611745">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599835570738" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597160044131" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597159926287" />
+    <state x="560" y="297" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027/1920.23.1881.1057@0.23.1920.1057" timestamp="1600111611745" />
     <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597165837992">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
