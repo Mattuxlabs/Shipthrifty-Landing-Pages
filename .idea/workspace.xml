@@ -16,10 +16,30 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Core Files">
-      <change afterPath="$PROJECT_DIR$/images/boxes right.png" afterDir="false" />
+    <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page">
+      <change afterPath="$PROJECT_DIR$/Get-ready-to-ship-to-military.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/bikerocean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/campingcenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/campingthumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/fisherman64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/fisherman96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/fishermancenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/fishingthumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/herolandimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/huntingcenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/huntingthumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/manrunner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/shero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/sherojp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/skiingcenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/skiingthumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/woodbackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mountain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shipmilmlp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/shipmilmlp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shipthrifty-landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shipthrifty-landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shipmilhead.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shipmilhead.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,21 +88,22 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mountain/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mountain/images/" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.talk-to-an-expert-military-shipper.html">
-    <configuration name="Shipmilmlp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/Shipmilmlp.html">
+    <configuration name="ship-business.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/ship-business.html">
       <method v="2" />
     </configuration>
-    <configuration name="ship-business.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/ship-business.html">
+    <configuration name="shipmilmlp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/shipmilmlp.html">
       <method v="2" />
     </configuration>
     <configuration name="talk-to-an-expert-military-shipper.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://dcdemosite.com/shipthrifty/talk-to-an-expert-military-shipper.html">
@@ -91,7 +112,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.talk-to-an-expert-military-shipper.html" />
-        <item itemvalue="JavaScript Debug.Shipmilmlp.html" />
+        <item itemvalue="JavaScript Debug.shipmilmlp.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +137,8 @@
       <workItem from="1599245750472" duration="15000" />
       <workItem from="1599323850225" duration="346000" />
       <workItem from="1599666523983" duration="4852000" />
-      <workItem from="1599833046537" duration="27736000" />
+      <workItem from="1599833046537" duration="32104000" />
+      <workItem from="1600182301483" duration="38711000" />
     </task>
     <task id="LOCAL-00001" summary="Core Files">
       <created>1597091873735</created>
@@ -216,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600111589151</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page">
+      <created>1600174701884</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600174701884</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page">
+      <created>1600174725253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600174725253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +284,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Core Files" />
     <MESSAGE value="Updated Design" />
     <MESSAGE value="Update Geo Location Design Spec" />
     <MESSAGE value="Design Completed PRE OWL RATE" />
@@ -260,7 +295,9 @@
     <MESSAGE value="With Video Section" />
     <MESSAGE value="Almost Finished All Sections Added&#10;-Need Sales Force integration&#10;- Need video&#10;- need photos for personal support" />
     <MESSAGE value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page" />
+    <MESSAGE value="Core Files" />
+    <MESSAGE value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="205" width="800" height="660" key="#Deployment" timestamp="1597166143386">
@@ -337,9 +374,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="255" key="run.anything.popup/0.0.1920.1080/-1680.0.1680.1050/1920.0.1920.1080@0.0.1920.1080" timestamp="1599667471855" />
-    <state x="4225" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1597092978842">
-      <screen x="3600" y="0" width="1920" height="1080" />
+    <state x="2532" y="259" width="670" height="662" key="search.everywhere.popup" timestamp="1600262271016">
+      <screen x="1920" y="23" width="1879" height="1057" />
     </state>
     <state x="4225" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/1920.0.1680.1050/3600.0.1920.1080@3600.0.1920.1080" timestamp="1597092978842" />
+    <state x="2532" y="259" width="670" height="662" key="search.everywhere.popup/0.23.1920.1057/-1680.23.1680.1027/1920.23.1879.1057@1920.23.1879.1057" timestamp="1600262271016" />
   </component>
 </project>
