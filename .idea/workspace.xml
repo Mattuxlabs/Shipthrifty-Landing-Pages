@@ -17,30 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47aada87-3137-4523-a9a8-8f320cbd1a15" name="Default Changelist" comment="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page">
-      <change afterPath="$PROJECT_DIR$/Get-ready-to-ship-to-military.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/bikerocean.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/campingcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/campingthumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/fisherman64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/fisherman96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/fishermancenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/fishingthumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/herolandimage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/huntingcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/huntingthumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/manrunner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/shero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/sherojp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/skiingcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/skiingthumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mountain/images/woodbackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mountain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/jakresize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/mbsm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mountain/images/yakhero.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipmilmlp.html" beforeDir="false" afterPath="$PROJECT_DIR$/shipmilmlp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shipthrifty-landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shipthrifty-landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/shipmilhead.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shipmilhead.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk-to-an-expert-military-shipper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mountain.html" beforeDir="false" afterPath="$PROJECT_DIR$/mountain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship-business.html" beforeDir="false" afterPath="$PROJECT_DIR$/ship-business.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,15 +70,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Mountain/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mountain/images/" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.talk-to-an-expert-military-shipper.html">
@@ -138,7 +120,8 @@
       <workItem from="1599323850225" duration="346000" />
       <workItem from="1599666523983" duration="4852000" />
       <workItem from="1599833046537" duration="32104000" />
-      <workItem from="1600182301483" duration="38711000" />
+      <workItem from="1600182301483" duration="38993000" />
+      <workItem from="1600346376626" duration="4852000" />
     </task>
     <task id="LOCAL-00001" summary="Core Files">
       <created>1597091873735</created>
@@ -252,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600174725253</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mountain project start">
+      <created>1600301864158</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600301864158</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +287,8 @@
     <MESSAGE value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;&#10;- Need Talk to an expert header&#10;- Need Thank you Page" />
     <MESSAGE value="Core Files" />
     <MESSAGE value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished All Sections Added&#10;Sales Force Integration Completed&#10;Video Done&#10;Personal Support Done&#10;Talk To A Expert Header Done&#10;-Need footer&#10;&#10;- Need Thank you Page" />
+    <MESSAGE value="mountain project start" />
+    <option name="LAST_COMMIT_MESSAGE" value="mountain project start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="205" width="800" height="660" key="#Deployment" timestamp="1597166143386">
