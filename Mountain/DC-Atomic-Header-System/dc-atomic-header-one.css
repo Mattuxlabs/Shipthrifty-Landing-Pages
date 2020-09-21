@@ -1,0 +1,39 @@
+.header-container{height:100px;width:100%;background-color:#ffffff;box-shadow: 2px 2px 3px #999999}
+.mobile-container{height:70px;width:450px;background-color:#ffffff;box-shadow: 2px 2px 3px #999999}
+.mobile-menu-options-container{width:450px;height:330px;background-color:#f6f6f6;margin-top:5px;border-left:10px solid #777777;}
+.mini-space{width:10px}
+.mini-menu-space{width:25px}
+.mini-menu-bumper{width:50px}
+.mini-menu-bumper-mobile{width:200px}
+.mini-bumper{width:40px}
+.util-copy{font-size:11px; color:#333333;text-transform: uppercase}
+.util-copy:hover{font-weight:bolder;color:#777777}
+.toolbox{margin:10px}
+.logo-container-atomic{margin:5px 10px}
+.menu-item-container{margin-top:2px}
+.menu-copy{font-size:14px;font-weight:500;margin-top:6px;text-transform: uppercase;}
+.menu-active{font-weight:bold}
+#mobile-menu{display:block!important;}
+#mobile-menu:hover{animation: heartBeat;animation-duration: 7s}
+.mobile-menu-control{height:30px;margin: 5px 5px;font-size:24px;text-transform: uppercase;color:#777777;}
+.arrow-bumper{height:6px}
+.mobile-logo-dimension{height:29px; width:158px}
+/* Conditional Elements */
+#mobile-menu-top{display:none}
+.mobileexposed{display:block;animation:zoomInLeft;animation-duration:1s;background-color:#ffffff}
+.section-control{opacity: .5%;}
+
+/*menu buttons bottom bar*/
+.login{text-align: center;height:50px;width:100px;border:1px solid #000000;box-shadow: 2px 1px 3px#999999}
+.login:hover{animation:zoomOutRight; animation-duration: 2s}
+.register{text-align:center;height:50px;width:100px;border:1px solid #000000;box-shadow: 2px 1px 3px#999999}
+.register:hover{animation:zoomOutRight;animation-duration: 2s}
+.espanol{text-align:center;height:50px;width:100px;border:1px solid #000000;box-shadow: 2px 1px 3px#999999}
+.espanol:hover{animation:zoomOutRight;animation-duration: 2s}
+/* Mobile Arrow */
+#menu-arrow-p:hover{animation: shakeX;animation-duration: 3s}
+#menu-arrow-t:hover{animation: shakeX;animation-duration: 3s}
+#menu-arrow-s:hover{animation: shakeX;animation-duration: 3s}
+#menu-arrow-h:hover{animation: shakeX;animation-duration: 3s}
+#menu-arrow-c:hover{animation: shakeX;animation-duration: 3s}
+#heroimage{height:330px;width:450px;margin-top:5px}

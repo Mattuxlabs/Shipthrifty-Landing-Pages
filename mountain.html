@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
     <title>Ship The Outdoors</title>
+
+
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="css/dc-custom.css" rel="stylesheet" type="text/css">
@@ -11,59 +15,59 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="Mountain/mountain-main.css">
+<link rel="stylesheet" href="Mountain/DC-Atomic-Header-System/dc-atomic-header-one.css">
 <script src="https://kit.fontawesome.com/75f220108c.js" crossorigin="anonymous"></script>
 
 <style>
- /* Background Images */
- .hero-desktop{background-image:url(Mountain/images/herolandimage.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
- .pos1-desktop{background-image:url(Mountain/images/mbsm.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
- .pos2-desktop{background-image:url(Mountain/images/manrunner.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
- .pos3-desktop{background-color:#000000;background-repeat: no-repeat;background-size:cover;height:846px;width:100%;}
- .pos4-desktop{background-image:url(Mountain/images/jakresize.jpg);background-repeat: no-repeat;background-size:cover;height:700px;width:100%;}
- /* special css */
-.hero-copy-box-blk{width:250px;height:150px;font-family: 'Rubik', sans-serif;font-weight:600;font-size:40px;color:#000000;margin:0px;padding:0px}
-.white-container-constructor{height:50px;width:100%;background-color: #000000;color:#FFFFFF;}
-.contextual-link{font-weight:700;font-size:14px;color:#FFFFFF}
-.mini-space{width:10px}
-.icon-headline{color:#FFFFFF;font-size:16px;text-transform: uppercase;font-weight:600}
-#sffr li{list-style: disc;font-weight:400}
-#sffr ul{padding-inline-start: 5px}
-.owl-dots{display:none}
-.sep-line{height:1px;width:100%;background-color:#ffffff}
-.price-box-trans{height:40px;width:50px;background-color:#FFFFFF;color:rgba(0,0,0,.8);font-size:26px;margin: 5px 10px;text-align: center }
-.whitefont{color:#FFFFFF}
-.Bullets{font-size:12px;text-transform: capitalize;color:#FFFFFF;}
-.bullets-blk{font-size:12px;text-transform: capitalize;color:#000000;}
-/* Photolog */
-.siderail-container{height:780px;background-color:rgba(0,0,0,.67);width:100%}
-.overlay-thumb-fishing{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
- .overlay-thumb-hunting{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
- .overlay-thumb-camping{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
- .overlay-thumb-skiing{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
- #picselect a{color:#777777;text-decoration: none}
-/*thumbnails*/
- .fishing-thumb{background-image:url(Mountain/images/fishingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
- .hunting-thumb{background-image:url(Mountain/images/huntingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
- .camping-thumb{background-image:url(Mountain/images/campingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
- .skiing-thumb{background-image:url(Mountain/images/skiingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
- /*thumbnail hovers */
- .fishing-thumb:hover .overlay-thumb-fishing{display:block;animation: zoomIn;animation-delay: 2s}
- .hunting-thumb:hover .overlay-thumb-hunting{display:block}
- .camping-thumb:hover .overlay-thumb-camping{display:block}
- .skiing-thumb:hover .overlay-thumb-skiing{display:block}
-/*main images*/
- .fisherman-center{background-image:url(Mountain/images/fisherman64.png);background-repeat:no-repeat;background-size:cover;height:635px}
- .hunting-center{background-image:url(Mountain/images/huntingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
- .camping-center{background-image:url(Mountain/images/campingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
- .skiing-center{background-image:url(Mountain/images/skiingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
+
 </style>
 <body>
-<header>
+<header class="sticky-top">
+
+    <div class ="header-container">
+        <div class ="d-flex d-flex-rows justify-content-end toolbox">
+            <div class ="mini-space"></div>
+            <div class ="util-copy">Sign In</div>
+            <div class ="mini-space"></div>
+            <div class ="util-copy">Register</div>
+            <div class="mini-space"></div>
+            <div class="mini-space"></div>
+            <div class="mini-space"></div>
+        </div>
+        <div class="row">
+            <div class ="col-md-2">
+                <div class="logo-container-atomic">
+                    <img src="images/logo-nav (1).png" height="45" width="183"/></div>
+            </div>
+
+            <div class="col-md-10">
+                <div class="d-flex d-flex-rows justify-content-end menu-item-container">
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy menu-active">Home</div>
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy">Ship a Package</div>
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy">About Us</div>
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy">FAQ</div>
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy">Case Studies</div>
+                    <div class ="mini-menu-space"></div>
+                    <div class ="menu-copy">Contact Us</div>
+                    <div class ="mini-menu-bumper"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<hero>
 <div class ="container-fluid hero-desktop">
 <div class ="row">
 <div class ="col-md-3 ">
   <div class="md-overall-padding" >
-    <img src="images/logo-nav (1).png" height="65" width="259"/>
+
 </div>
 </div>
 <div class="col-md-8">
@@ -81,7 +85,7 @@
 
 
 </div>
-</header>
+</hero>
 <constructor>
 <div class ="white-container-constructor">
    <div class ="d-flex d-flex-rows justify-content-between md-lr-padding">
@@ -257,7 +261,7 @@ Be part of enhancing the tools based on things that will help your business
 
 
 <!--End Side Rail-->
-    <div class="height-spacer" style="height:40px"></div>
+    <div class="forty-spacer" ></div>
 <div class ="d-flex d-flex-wrap justify-content-start md-lr-padding">
 
 
@@ -370,7 +374,7 @@ Be part of enhancing the tools based on things that will help your business
      <div class ="col-md-9" >
 
 
-         <div class ="whiteline" style="width:100%;height:4px ;background-color:#000000">
+         <div class ="whiteline">
         <div class ="d-flex justify-content-start">
     <div class ="subheadline  whitefont "> <div class="sm-spacer"></div>Choose An Adventure</div>
 
@@ -385,7 +389,7 @@ Be part of enhancing the tools based on things that will help your business
 
     <div class ="d-flex justify-content-center">
         <div class="content-overlay">
-            <div class ="spacer" style="height:60px"></div>
+            <div class ="sixity-spacer" ></div>
         <i class="fas fa-2x fa-fish" style="margin-left:3px" ></i>
         <div class="subheadline">Fishing</div>
     </div></div>
@@ -399,7 +403,7 @@ Be part of enhancing the tools based on things that will help your business
             <div class ="overlay-thumb-hunting">
     <div class ="d-flex justify-content-center">
         <div class="content-overlay">
-            <div class ="spacer" style="height:60px"></div>
+            <div class ="sixity-spacer" ></div>
             <i class="fas fa-2x fa-deer" style="margin-left:15px" ></i>
             <div class="subheadline">Hunting</div>
         </div></div>
@@ -413,7 +417,7 @@ Be part of enhancing the tools based on things that will help your business
     <div class ="overlay-thumb-camping">
         <div class ="d-flex justify-content-center">
             <div class="content-overlay">
-                <div class ="spacer" style="height:60px"></div>
+                <div class ="sixity-spacer" ></div>
                 <i class="fas fa-2x fa-campground" style="margin-left:11px" ></i>
                 <div class="subheadline">Camping</div>
             </div></div>
@@ -428,7 +432,7 @@ Be part of enhancing the tools based on things that will help your business
     <div class ="overlay-thumb-skiing">
         <div class ="d-flex justify-content-center">
             <div class="content-overlay">
-                <div class ="spacer" style="height:60px"></div>
+                <div class ="sixity-spacer"></div>
                 <i class="fas fa-2x fa-skiing" style="margin-left:25px" ></i>
                 <div class="subheadline">Recreational</div>
             </div></div>
