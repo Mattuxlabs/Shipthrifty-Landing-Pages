@@ -9,6 +9,12 @@
 <link href="css/dc-custom.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/shipthrifty-landing.css"/>
 <style>
+    input{
+        width: 100%;
+    }
+    .lg-overall-padding {
+    padding: 15px 25px;
+}
 input[type=submit]  {background-color: #000000;color:#FFFFFF;border: 1px solid #FFFFFF;font-size:20px;margin:15px;text-transform: uppercase}
 input[type=text] {border:none;border-bottom: 1px solid #ffffff;background-color:#000000;margin:3px;text-transform: uppercase}
 input[type=text]:focus{border:none;border-bottom: 1px solid #ffffff;background-color:#000000;text-transform: uppercase;color:#FFFFFF;font-size:24px;font-weight:300}
@@ -58,9 +64,15 @@ label{text-transform: uppercase}
 <div class ="xl-spacer"></div>
 <div class ="row">
 <div class ="col-md-7">
-<div class ="special uppercase bold md-lr-padding bold" style="color:#000000">Ready To Start Shipping Care Packages?</div>
-<div class ="subheadline md-lr-padding drkgreyfont bold">Here are some resources you might find interesting...</div>
-<div class="copy md-overall-padding md-reduce-content greyfont">    We understand the importance of care packages and built tools to make the process way easier. Whether you're a group who sends care packages to support our troops as part of your mission, a family member, or friend of a service member we are here to help. This session will be tailored to your level of shipping expertise and we will spend time talking about some of the savings tips we've learned, touring the tools, and answering your specific questions. </div>
+<div class ="special uppercase bold md-lr-padding bold" style="color:#000000">WE ARE ALWAYS HAPPY TO SHARE WHAT WE KNOW!</div>
+<!--<div class ="subheadline md-lr-padding drkgreyfont bold">Here are some resources you might find interesting...</div>-->
+<div class="copy md-overall-padding md-reduce-content greyfont">We take pride in helping our service members, their families, and the organizations that support them.
+</div>
+<div class="copy md-overall-padding md-reduce-content greyfont">We attend military pre-deployment events, host educational conference calls, and meetings with groups across the country both in person and virtually to share information and tips for shipping. Service members and their families can find us on Military OneSource in the community resources, and we still volunteer at packing events because we love it!
+</div>
+<div class="copy md-overall-padding md-reduce-content greyfont">We are passionate about what we do and look forward to sharing our knowledge with you.
+</div>
+
 </div>
 
  <div class ="col-md-5 " style="text-align: right">
@@ -84,7 +96,7 @@ label{text-transform: uppercase}
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: Please add the following <FORM> element to your page.             -->
     <!--  ----------------------------------------------------------------------  -->
-    <div class ="row blkbkgd">
+    <div class ="row blkbkgd" style="margin: 0;">
         <div class ="col-md-1"></div>
         <div class ="col-md-5 col-xs-12" style="border-right:1px solid #FFFFFF;">
             <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
@@ -101,23 +113,25 @@ label{text-transform: uppercase}
 
                 <div class ="row">
                     <div class ="col-md-6 lg-overall-padding">
-                        <label for="first_name"><div class="copy">First Name</div></label><br><input  id="first_name" maxlength="30" name="first_name" size="30" type="text" /><br>
+                        <label for="first_name"><div class="copy">First Name</div></label><br><input  id="first_name" maxlength="30" name="first_name" size="24" type="text" /><br>
                     </div>
                     <div class ="col-md-6 lg-overall-padding">
                         <label for="last_name"><div class ="copy">Last Name</div></label><br><input  id="last_name" maxlength="30" name="last_name" size="24" type="text" /><br>
                     </div></div>
                 <div class="row">
-                    <div class="col-md-3 lg-overall-padding">
-                        <label  for="email"><div class ="copy">Email</div></label><br><input  id="email" maxlength="80" name="email" size="60" type="text" /><br></div>
+                    <div class="col-md-12 lg-overall-padding">
+                        <label  for="email"><div class ="copy">Email</div></label><br><input  id="email" maxlength="50" name="email" size="50" type="text" /><br></div>
 
                 </div>
-                <div class ="org-lab">
+                <div class="row">
+                <div class ="org-lab col-md-12 lg-overall-padding">
                 <label for="company">Organization</label><br><input  id="company" maxlength="80" name="company" size="60" type="text" /><br>
-            </div>
+                    </div></div>
                 <br>
-                <div class="phone-tab">
+                <div class="phone-tab row">
+                <div class ="col-md-12 lg-overall-padding">
                     <label for="phone">Phone</label><br><input  id="phone" maxlength="40" name="phone" size="20" type="text" />
-
+                    </div>
                 </div>
                 <div class ="row">
 
@@ -228,7 +242,7 @@ label{text-transform: uppercase}
                     <div class="xl-overall-padding">
                         <div class ="headline" style="color:#FFFFFF;">Military Shipping</div>
                         <div class="uppercase  bold " style="color:#FFFFFF;font-size:12px">Powered By: Shipthrifty</div>
-                        <div class="copy " style="color:#FFFFFF;width:400px;margin-right:6px;margin-top:6px;"> Shipthrifty provides industry leading shipping solutions to military family's, organizations, and businesses across the US. Our personal mission is to provide value and an easy to use set of tools for quick and reliable service to military and diplomatic service members across the globe.</div>
+                        <div class="copy " style="color:#FFFFFF;width:400px;margin-right:6px;margin-top:6px;"> Shipthrifty provides industry -leading shipping solutions to military families, organizations, and businesses across the US. Our personal mission is to provide value and an easy to use set of tools for quick and reliable service to military and diplomatic service members across the globe.</div>
                     </div>
 
                 </div>
