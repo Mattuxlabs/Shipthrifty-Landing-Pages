@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
     <title>Ship The Outdoors</title>
-
+    <link rel="stylesheet" href="css/house.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/dc-custom.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="Mountain/mountain-main.css">
+    <link rel="stylesheet" href="Mountain/DC-Atomic-Header-System/dc-atomic-header-one.css">
+    <link rel="stylesheet" href="css/map-pos.css">
 
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link href="css/dc-custom.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.css">
-<link rel="stylesheet" href="Mountain/mountain-main.css">
-<link rel="stylesheet" href="Mountain/DC-Atomic-Header-System/dc-atomic-header-one.css">
+
 <script src="https://kit.fontawesome.com/75f220108c.js" crossorigin="anonymous"></script>
 
 <style>
@@ -530,7 +532,66 @@ Be part of enhancing the tools based on things that will help your business
       <div class="md-overall-padding">
 <div class ="lg-spacer"></div>
 <div class ="d-flex justify-content-center">
-          <img src="Mountain/images/map lt Grey.png" height="211" width="345" usemap="#shipmap"></div>
+    <div id ="map">
+    <div class="cd-product cd-container">
+        <div class="cd-product-wrapper">
+            <img src="Mountain/images/map Grey.png" >
+            <ul>
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower" href="#Midwest">More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>Mid West </h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower" href="#eastcoast">More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>East Coast</h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower" href="#westcoast" >More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>West Coast</h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+
+
+
+
+
+
+
+
+            </ul>
+
+
+        </div>
+    </div>
+</div></div>
 
 
      </div>
@@ -743,10 +804,11 @@ Be part of enhancing the tools based on things that will help your business
  <div class="col-md-7 col-xs-12">
      <div class ="xl-spacer"></div>
      <div class ="d-flex d-flex justify-content-end md-overall-padding">
-       <div class ="about-section">
+       <div class ="about-section lg-reduce-content">
 
-         <div class ="subheadline uppercase" style="color:#000000;font-size:14px">About Shipthrifty:</div>
-         <div class="subheadline"></div>
+         <div class ="subheadline bold uppercase" style="color:#000000;font-size:14px">Small Business Shipping<br>
+         POWERED BY SHIPTHRIFTY</div>
+         <div class="copy">Shipthrifty provides industry-leading shipping solutions that give small businesses turn-key tools for quick and reliable services so you can enjoy your personal adventures. We also help military service members, their families, and organizations who send care packages to our troops around the globe because we believe in supporting those who protect our freedom.</div>
      </div>
      </div>
 
@@ -802,6 +864,29 @@ margin:0,
         autoplayHoverPause:true,
         startPosition: 'URLHash'
     });
+
+</script>
+<script>
+
+    //Interest Point
+
+
+    //open interest point description
+    jQuery('.cd-single-point').children('a').on('click', function(){
+        var selectedPoint = $(this).parent('li');
+        if( selectedPoint.hasClass('is-open') ) {
+            selectedPoint.removeClass('is-open').addClass('visited');
+        } else {
+            selectedPoint.addClass('is-open').siblings('.cd-single-point.is-open').removeClass('is-open').addClass('visited');
+        }
+    });
+    //close interest point description
+    jQuery('.cd-close-info').on('click', function(event){
+        event.preventDefault();
+        jQuery(this).parents('.cd-single-point').eq(0).removeClass('is-open').addClass('visited');
+    });
+
+
 
 </script>
 </body>

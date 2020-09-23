@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/dc-custom.css">
+    <link rel="stylesheet" href="css/shipthrifty-landing.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="Mountain/mountain-main.css">
+    <link rel="stylesheet" href="css/house.css">
+</head>
+<style>
+
+
+
+</style>
+<body>
+
+<div id ="map">
+    <div class="cd-product cd-container">
+        <div class="cd-product-wrapper">
+            <img src="Mountain/images/map Grey.png" >
+            <ul>
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower">More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>Mid West </h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower">More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>East Coast</h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+                <li class="cd-single-point">
+                    <a class="cd-img-replace animated zoomIn slower" >More</a>
+                    <div class="cd-more-info cd-left">
+                        <h6>West Coast</h6>
+
+
+                    </div>
+
+
+
+
+                </li> <!-- .cd-single-point -->
+
+
+
+
+
+
+
+
+
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--scripts-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+    })
+</script>
+<script>
+    $('.owl-geolocate').owlCarousel({
+        items:1,
+        loop:false,
+
+        margin:5,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+
+</script>
+<script>
+    $('.owl-images').owlCarousel({
+        items:1,
+        loop:false,
+        margin:0,
+
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+
+</script>
+<script>
+
+    //Interest Point
+
+
+    //open interest point description
+    jQuery('.cd-single-point').children('a').on('click', function(){
+        var selectedPoint = $(this).parent('li');
+        if( selectedPoint.hasClass('is-open') ) {
+            selectedPoint.removeClass('is-open').addClass('visited');
+        } else {
+            selectedPoint.addClass('is-open').siblings('.cd-single-point.is-open').removeClass('is-open').addClass('visited');
+        }
+    });
+    //close interest point description
+    jQuery('.cd-close-info').on('click', function(event){
+        event.preventDefault();
+        jQuery(this).parents('.cd-single-point').eq(0).removeClass('is-open').addClass('visited');
+    });
+
+
+
+</script>
+<script>
+    jQuery(document).ready(function(){
+        jQuery(".owl-carousel").owlCarousel();
+    });
+
+</script>
+<script>
+    jQuery('.owl-carousel-con').owlCarousel({
+        items:1,
+        loop:false,
+
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });	</script>
+
+</body>
+</html>
