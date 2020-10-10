@@ -1,0 +1,45 @@
+/* Background Images */
+.hero-desktop{background-image:url(images/herolandimage.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
+.pos1-desktop{background-image:url(images/mbsm.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
+.pos2-desktop{background-image:url(images/manrunner.jpg);background-repeat: no-repeat;background-size:cover;height:600px;width:100%;}
+.pos3-desktop{background-color:#000000;background-repeat: no-repeat;background-size:cover;height:846px;width:100%;}
+.pos4-desktop{background-image:url(images/jakresize.jpg);background-repeat: no-repeat;background-size:cover;height:700px;width:100%;}
+/* special css */
+.hero-copy-box-blk{width:250px;height:150px;font-family: 'Rubik', sans-serif;font-weight:600;font-size:40px;color:#000000;margin:0px;padding:0px}
+.white-container-constructor{height:50px;width:100%;background-color: #000000;color:#FFFFFF;}
+.contextual-link{font-weight:700;font-size:14px;color:#FFFFFF}
+.mini-space{width:10px}
+.forty-spacer{height:40px}
+.sixity-spacer{height:60px}
+.icon-headline{color:#FFFFFF;font-size:16px;text-transform: uppercase;font-weight:600}
+#sffr li{list-style: disc;font-weight:400}
+#sffr ul{padding-inline-start: 5px}
+.owl-dots{display:none}
+.sep-line{height:1px;width:100%;background-color:#ffffff}
+.price-box-trans{height:40px;width:50px;background-color:#FFFFFF;color:rgba(0,0,0,.8);font-size:26px;margin: 5px 10px;text-align: center }
+.whitefont{color:#FFFFFF}
+.whiteline{width:100%;height:4px ;background-color:#000000}
+.Bullets{font-size:12px;text-transform: capitalize;color:#FFFFFF;}
+.bullets-blk{font-size:12px;text-transform: capitalize;color:#000000;}
+/* Photolog */
+.siderail-container{height:780px;background-color:rgba(0,0,0,.67);width:100%}
+.overlay-thumb-fishing{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
+.overlay-thumb-hunting{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
+.overlay-thumb-camping{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
+.overlay-thumb-skiing{height:200px;width:100%;background-color:rgba(255,255,255,.8);display:none}
+#picselect a{color:#777777;text-decoration: none}
+/*thumbnails*/
+.fishing-thumb{background-image:url(images/fishingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
+.hunting-thumb{background-image:url(images/huntingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
+.camping-thumb{background-image:url(images/campingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
+.skiing-thumb{background-image:url(images/skiingthumb.png);background-repeat:no-repeat;background-size:cover;height:200px}
+/*thumbnail hovers */
+.fishing-thumb:hover .overlay-thumb-fishing{display:block;animation: zoomIn;animation-delay: 2s}
+.hunting-thumb:hover .overlay-thumb-hunting{display:block}
+.camping-thumb:hover .overlay-thumb-camping{display:block}
+.skiing-thumb:hover .overlay-thumb-skiing{display:block}
+/*main images*/
+.fisherman-center{background-image:url(images/fisherman64.png);background-repeat:no-repeat;background-size:cover;height:635px}
+.hunting-center{background-image:url(images/huntingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
+.camping-center{background-image:url(images/campingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
+.skiing-center{background-image:url(images/skiingcenter.png);background-repeat:no-repeat;background-size:cover;height:635px}
